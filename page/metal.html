@@ -16,13 +16,12 @@
             border: none;              
             border-radius: 5px;        
             cursor: pointer;          
+            margin: 5px; /* Añadir margen para separación */
         }
 
         .meu-botao:hover {
             background-color: #bbb80c;
-            
             color: black;
-        
         }
 
         html, body {
@@ -31,8 +30,22 @@
             display: flex;
             flex-direction: column;
         }
+
         body {
             color: black;
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centra el título */
+            padding: 20px; /* Espaciado adicional */
+        }
+
+        .button-container {
+            display: flex; /* Usar flexbox para alinear botones horizontalmente */
+            justify-content: center; /* Centrar los botones */
+            gap: 10px; /* Espacio entre los botones */
         }
 
         main {
@@ -40,6 +53,7 @@
             padding: 20px;
             text-align: center;
         }
+
         footer {
             background-color: #044e08;
             color: white;
@@ -55,8 +69,10 @@
     <header class="mt-3 text-center">  
         <h1>METAL</h1>
         
-        <button class="meu-botao" onclick="window.location.href='inicio.html';" aria-label="Volver a la página de inicio">VOLVER AL INICIO</button>
-        <button class="meu-botao" onclick="window.location.href='mn.html';" aria-label="Ir a la página de no reciclables">NO RECICLABLES</button>
+        <div class="button-container">
+            <button class="meu-botao" onclick="window.location.href='inicio.html';" aria-label="Volver a la página de inicio">VOLVER AL INICIO</button>
+            <button class="meu-botao" onclick="window.location.href='mn.html';" aria-label="Ir a la página de no reciclables">NO RECICLABLES</button>
+        </div>
 
     </header>
 
@@ -93,12 +109,10 @@
             <li>6. Solidificación: Los metales fundidos se enfrían, se solidifican y se moldean en formas específicas, listos para ser utilizados nuevamente como materia prima.</li>
         </ul>
 
-      
-   
-    <a href="https://reducereutilizarecicla.org/metales-reciclables/#:~:text=El%20hierro%2C%20el%20acero%2C%20aluminio,veces%20sin%20perder%20sus%20propiedades." 
-         target="_blank" 
-         rel="noopener noreferrer" 
-         aria-label="Más información sobre metales reciclables en una nueva pestaña">Metales Reciclables</a>
+        <a href="https://reducereutilizarecicla.org/metales-reciclables/#:~:text=El%20hierro%2C%20el%20acero%2C%20aluminio,veces%20sin%20perder%20sus%20propiedades." 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           aria-label="Más información sobre metales reciclables en una nueva pestaña">Metales Reciclables</a>
 
     </main>
 

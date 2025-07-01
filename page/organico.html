@@ -14,10 +14,18 @@
             border: none;             
             border-radius: 5px;        
             cursor: pointer;          
+            margin: 5px; /* Espacio entre botones */
         }
 
         .meu-botao:hover {
             background-color: #252303;
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centra el contenido horizontalmente */
+            padding: 20px; /* Espaciado adicional */
         }
 
         main {
@@ -29,6 +37,7 @@
             font-size: 2em;
             margin-bottom: 20px;
         }
+
         footer {
             background-color: #044e08;
             color: white;
@@ -43,8 +52,10 @@
     <header class="mt-3 text-center">
         <h1>ORGANICO</h1>
         
-        <button class="meu-botao" onclick="window.location.href='inicio.html';">VOLVER</button>
-        <button class="meu-botao" onclick="window.location.href='ON.html';">NO RECICLABLES</button>
+        <div class="button-container" style="display: flex; justify-content: center;">
+            <button class="meu-botao" onclick="window.location.href='inicio.html';">VOLVER</button>
+            <button class="meu-botao" onclick="window.location.href='ON.html';">NO RECICLABLES</button>
+        </div>
     </header>
     
     <main>
@@ -73,7 +84,6 @@
 
         <p>Evitar el desperdicio: Una manera efectiva de reciclar residuos orgánicos es reducir la cantidad de desperdicio en primer lugar. Planifica tus compras de alimentos con anticipación, utiliza sobras para preparar nuevos platillos, y procura no desechar alimentos innecesarios.</p>
         
-       
         <a href="https://reducereutilizarecicla.org/basura-organica/#:~:text=Los%20restos%20de%20frutas%20y,ejemplos%20de%20materia%20org%C3%A1nica%20compostable." target="_blank">Más información sobre reciclaje orgánico</a>
     </main>
 
@@ -83,3 +93,4 @@
     
 </body>
 </html>
+
