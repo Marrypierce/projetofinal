@@ -1,18 +1,27 @@
-body {
-    background-color: rgb(21, 238, 14);
+html,body {
+    background-color: rgb(9, 192, 2);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
 }
-
+main{
+    flex: 1;
+}
+footer{
+    width:100%;
+}
+  
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
     text-align: center;
 }
 
 
 header {
-    background-color: #2e7d32; 
+    background-color: #044e08; 
     color: white;
     padding: 20px;
     text-align: center;
@@ -36,7 +45,7 @@ nav ul li a {
 
 
 .hero {
-    background-color: #f7d00f; 
+    background-color: rgb(9, 192, 2); 
     padding: 50px;
     color: #201d1d;
 }
@@ -45,7 +54,7 @@ nav ul li a {
     display: inline-block;
     padding: 10px 20px;
     margin-top: 15px;
-    background-color: #1565c0; 
+    background-color: #157708; 
     color: white;
     text-decoration: none;
     font-size: 18px;
@@ -53,19 +62,19 @@ nav ul li a {
 }
 
 .btn:hover {
-    background-color: #0d47a1;
+    background-color: rgb(9, 192, 2);
 }
 
-/* Sección de contenido */
+
 .content {
-    background-color: #795548; /* Marrón - Orgánico */
+    background-color: #044e08; 
     padding: 20px;
     color: white;
 }
 
-/* Pie de página */
+
 footer {
-    background-color: #2e7d32; /* Verde - Vidrio */
+    background-color: #044e08; 
     color: white;
     padding: 10px;
 }

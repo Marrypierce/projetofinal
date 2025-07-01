@@ -5,20 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reciclaje Sostenible</title>
     <link rel="stylesheet" href="css/styles.css">
+    <style> 
+          .meu-botao {
+            background-color: #044e08; 
+            color: white;             
+            padding: 15px 32px;        
+            font-size: 16px;          
+            border: none;              
+            border-radius: 5px;        
+            cursor: pointer;          
+        }
+
+        .meu-botao:hover {
+            background-color: rgb(9, 192, 2); 
+        }
+
+    </style>
 </head>
 <body>
     <header>
         <h1>Reciclaje Sostenible</h1>
-        <nav>
-            <ul>
-                <li><a href="page/inicio.html">Inicio</a></li>
-                
-            </ul>
-        </nav>
+      
     </header>
-    
+    <main>
     <section class="hero">
         <h2>Únete al cambio, recicla hoy</h2>
+         <button class="meu-botao" onclick="window.location.href='page/inicio.html';">INICIO</button>
         <p>Regístrate para ser parte de nuestra comunidad ecológica.</p>
     </section>
     
@@ -27,7 +39,7 @@
         <p>En Reciclaje Sostenible nos preocupamos por el medio ambiente y queremos que más personas se unan a nuestra causa. ¡Regístrate y colabora con nosotros!</p>
        
     </section>
-    
+    </main>
     <footer class="rodape">
         <p>&copy; 2025 Reciclaje Sostenible. Todos los derechos reservados.</p>
     </footer>
