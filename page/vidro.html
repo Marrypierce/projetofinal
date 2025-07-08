@@ -1,34 +1,35 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="pt-pt">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>Vidrio Reciclable</title>
+    <title>Document :D</title>
     <link rel="stylesheet" href="styles.css">
 
     <style>
         
+        
         .meu-botao {
-            background-color: #16e71d; 
-            color: black;              
+            background-color: #044e08; 
+            color: white;             
             padding: 15px 32px;        
-            font-size: 16px;           
-            border: none;             
-            border-radius: 5px;       
+            font-size: 16px;          
+            border: none;              
+            border-radius: 5px;        
             cursor: pointer;          
         }
 
         .meu-botao:hover {
-            background-color: #318335; 
+            background-color:  rgb(5,165,0);
+; 
         }
 
-       
-        html, body {
-            height: 100%;
-            margin: 0;
+        header {
             display: flex;
             flex-direction: column;
+            align-items: center; 
+            padding: 20px; 
         }
+
 
         main {
             flex: 1;
@@ -50,11 +51,14 @@
     </style>
 </head>
 <body style="background-color: rgb(5, 163, 0);">
-    <header class="mt-3 text-center">
+     <header class="mt-3 text-center">  
         <h1>VIDRO</h1>
-       
-         <button class="meu-botao" onclick="window.location.href='inicio.html';" aria-label="Volver a la página de inicio">VOLTAR AO INICIO</button>
-         <button class="meu-botao" onclick="window.location.href='mn.html';" aria-label="Ir a la página de no reciclables">NÃO RECICLÁVEIS</button>
+        
+        <div class="button-container">
+            <button class="meu-botao" onclick="window.location.href='inicio.html';" aria-label="Volver a la página de inicio">VOLTAR AO INICIO</button>
+            <button class="meu-botao" onclick="window.location.href='VN.html';" aria-label="Ir a la página de no reciclables">NÃO RECICLÁVEIS</button>
+        </div>
+
     </header>
     <main>
        
@@ -65,29 +69,32 @@
                 <p class="card-text">ALGUNS DOS MATERIAIS RECICLÁVEIS</p>
         </div>
 
-        <h2>Muchos tipos de vidrio son reciclables, pero no todos.</h2>
+        <h2>Muitos tipos de vidro são recicláveis, mas não todos.</h2>
         <p>
-            Tipos de vasos que puedes desechar en recogida selectiva: botellas de cerveza, vinos, licores, aceite de oliva y tarros de conservas (palmitos, aceitunas, mermelada).
+           Tipos de copos que você pode jogar fora na coleta seletiva: garrafas de cerveja, vinhos, destilados, azeite de oliva e potes de conservas (palmito, azeitonas, geleia).
         </p>
         <p>
-            Los vasos y platos de vidrio y los envases esmaltados también se consideran reciclables.
-        </p>
+            Copos de vidro, pratos e recipientes de esmalte também são considerados recicláveis.        </p>
         <p>
-            Además, los cristales rotos son reciclables, siempre que estén bien embalados para no herir a los coleccionistas y al personal de las cintas de separación.
-        </p>
-
-        <h3>Reciclaje de vidrio</h3>
-        <p>
-            Compuesto básicamente de arena y piedra caliza, el vidrio, además de ser infinitamente reciclable, es uno de los materiales más sencillos y eficientes de reciclar.
-        </p>
-        <p>
-            Es más barato invertir en reciclaje de vidrio y fabricar productos con materiales reutilizados que con materias primas vírgenes. A diferencia del plástico, las botellas y tarros de vidrio se pueden reciclar sin que el producto final pierda calidad.
-        </p>
-        <p>
-            La ONU nombró 2022 como el Año Internacional del Vidrio. El objetivo es dar visibilidad al potencial sostenible del material.
+         Além disso, o vidro quebrado é reciclável, desde que seja embalado corretamente para não ferir os coletores e os funcionários das esteiras de triagem.
         </p>
 
-        <a href="https://www.ceroresiduo.com/tipos-vidrio-cuales-son-como-se-reciclan/?srsltid=AfmBOoqPJc58vMIhnyeAVLpSoo-Lp_EGTeN8Wa231Ep2VB36fqEedZfO" target="_blank">Más sobre el reciclaje de vidrio</a>
+        <h3>Reciclagem de vidro</h3>
+        <p>
+          Composto principalmente de areia e calcário, o vidro, além de ser infinitamente reciclável, é um dos materiais mais simples e eficientes de reciclar.
+        </p>
+        <p>
+           É mais barato investir na reciclagem de vidro e fabricar produtos com materiais reciclados do que com matérias-primas virgens. Ao contrário do plástico, garrafas e potes de vidro podem ser reciclados sem perda de qualidade no produto final.
+        </p>
+        <p>
+           A ONU designou 2022 como o Ano Internacional do Vidro. O objetivo é destacar o potencial sustentável do material.
+        </p>
+
+        <a href="https://recykloo.com.br/descarte-e-reciclagem-de-vidro/"
+         target="_blank" 
+           rel="noopener noreferrer" 
+           aria-label="Más información sobre metales reciclables en una nueva pestaña">Saiba mais</a>
+
     </main>
 
     <footer>
